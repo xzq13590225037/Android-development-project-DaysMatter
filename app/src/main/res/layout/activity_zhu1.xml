@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_daojishi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    android:visibility="visible"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="-10dp">
+
+
+    <Button
+        android:id="@+id/_login"
+        android:layout_width="167dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="232dp"
+        android:background="@drawable/shape_button"
+        android:drawableStart="@drawable/ic_b"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:paddingStart="38dp"
+        android:text="Login"
+        android:textSize="@dimen/_16sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.756"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/_countdown"
+        android:layout_width="167dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="176dp"
+        android:background="@drawable/shape_button"
+        android:drawableLeft="@drawable/ic_a"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:paddingLeft="38dp"
+        android:text="Days"
+        android:textSize="@dimen/_16sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.756"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/_history"
+        android:layout_width="167dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/shape_button"
+        android:drawableStart="@drawable/ic_d"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:paddingStart="38dp"
+        android:text="Histroy"
+        android:textSize="@dimen/_16sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.756"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints,SpUsage" />
+
+    <Button
+        android:id="@+id/_note"
+        android:layout_width="167dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/shape_button"
+        android:drawableStart="@drawable/ic_c"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:paddingStart="38dp"
+        android:text="note"
+        android:textSize="@dimen/_16sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.756"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints,RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/_Daysmatter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="307dp"
+        android:layout_marginBottom="696dp"
+        android:text="Daysmatter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

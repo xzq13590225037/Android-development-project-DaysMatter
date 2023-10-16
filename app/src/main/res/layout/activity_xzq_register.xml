@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back4">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="370dp">
+
+        <EditText
+            android:id="@+id/accountEdit"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background= "@drawable/shape_button2"
+            android:gravity="center"
+            android:hint="用户ID(8位以上字母和数字)"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp">
+
+        <EditText
+            android:id="@+id/passwordEdit"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:inputType="textPassword"
+            android:background= "@drawable/shape_button2"
+            android:hint="设置密码(6位以上)"
+            android:gravity="center"
+            android:drawablePadding="8dp"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp">
+
+        <EditText
+            android:id="@+id/affpwdEdit"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:inputType="textPassword"
+            android:background= "@drawable/shape_button2"
+            android:hint="确认密码"
+            android:gravity="center"
+            android:drawablePadding="8dp"
+
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/registerbtn"
+        android:layout_width="147dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shape_button2"
+        android:text="注册"
+        android:textColor="@color/black" />
+</LinearLayout>

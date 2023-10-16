@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--  圆形  -->
+    <corners
+        android:topLeftRadius="45dp"
+        android:topRightRadius="45dp"
+        android:bottomLeftRadius="45dp"
+        android:bottomRightRadius="45dp"/>
+    <!-- 透明红-->
+    <solid
+        android:color="#F3EA9E"/>
+    <padding
+        android:left="2dp"
+        android:right="2dp"
+        android:top="1dp"
+        android:bottom="1dp"/>
+    <size
+        android:width="30dp"
+        android:height="30dp"/>
+</shape>
